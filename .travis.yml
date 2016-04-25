@@ -42,7 +42,7 @@ before_install:
 
 install:
   - carthage update Nimble Quick --platform iOS --no-use-binaries
-  - carthage update Restofire --no-use-binaries
+  - carthage update Restofire Gloss --no-use-binaries
 
 script:
   - set -o pipefail
