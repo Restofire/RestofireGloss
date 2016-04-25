@@ -7,20 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35E6D3821CCCA08D007ABC05 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D3811CCCA08D007ABC05 /* Restofire-Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35738CA31CCE92A6003B13A0 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3911CCCAE34007ABC05 /* Gloss.framework */; };
+		35738CA41CCE92BA003B13A0 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3911CCCAE34007ABC05 /* Gloss.framework */; };
+		35738CA51CCE92C2003B13A0 /* Gloss.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3911CCCAE34007ABC05 /* Gloss.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35738CCD1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35738CCE1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35738CCF1CCE933B003B13A0 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35738CD01CCE933F003B13A0 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35738CD11CCE933F003B13A0 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35738CD21CCE933F003B13A0 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35E6D38D1CCCA1E0007ABC05 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */; };
+		35E6D38F1CCCADD4007ABC05 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35E6D3931CCCAE34007ABC05 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3901CCCAE34007ABC05 /* Alamofire.framework */; };
+		35E6D3951CCCAE34007ABC05 /* Restofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3921CCCAE34007ABC05 /* Restofire.framework */; };
+		35E6D3981CCCAF2C007ABC05 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35E6D3A21CCCB1DF007ABC05 /* Restofire_Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D37E1CCCA08D007ABC05 /* Restofire_Gloss.framework */; };
+		35E6D3D81CCCB353007ABC05 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3D61CCCB34F007ABC05 /* Person.swift */; };
+		35E6D3D91CCCB359007ABC05 /* BoolService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3AE1CCCB339007ABC05 /* BoolService+GET.swift */; };
+		35E6D3DA1CCCB359007ABC05 /* FloatService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3AF1CCCB339007ABC05 /* FloatService+GET.swift */; };
+		35E6D3DB1CCCB359007ABC05 /* IntService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3B01CCCB339007ABC05 /* IntService+GET.swift */; };
+		35E6D3DC1CCCB359007ABC05 /* PersonArrayService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3B11CCCB339007ABC05 /* PersonArrayService+GET.swift */; };
+		35E6D3DD1CCCB359007ABC05 /* PersonService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3B21CCCB339007ABC05 /* PersonService+GET.swift */; };
+		35E6D3DE1CCCB359007ABC05 /* StringArrayService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3B31CCCB339007ABC05 /* StringArrayService+GET.swift */; };
+		35E6D3DF1CCCB359007ABC05 /* StringService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3B41CCCB339007ABC05 /* StringService+GET.swift */; };
+		35E6D3E01CCCB359007ABC05 /* VoidService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3B51CCCB339007ABC05 /* VoidService+GET.swift */; };
+		35E6D3EC1CCCB381007ABC05 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3901CCCAE34007ABC05 /* Alamofire.framework */; };
+		35E6D3EE1CCCB381007ABC05 /* Restofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3921CCCAE34007ABC05 /* Restofire.framework */; };
+		35E6D3F11CCCB381007ABC05 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3EF1CCCB381007ABC05 /* Nimble.framework */; };
+		35E6D3F21CCCB381007ABC05 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3F01CCCB381007ABC05 /* Quick.framework */; };
+		35E6D4091CCCB499007ABC05 /* BoolService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3F31CCCB3FC007ABC05 /* BoolService+GETSpec.swift */; };
+		35E6D40A1CCCB499007ABC05 /* FloatService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3F41CCCB3FC007ABC05 /* FloatService+GETSpec.swift */; };
+		35E6D40D1CCCB499007ABC05 /* IntService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3F71CCCB3FC007ABC05 /* IntService+GETSpec.swift */; };
+		35E6D40E1CCCB499007ABC05 /* PersonArrayService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3F81CCCB3FC007ABC05 /* PersonArrayService+GETSpec.swift */; };
+		35E6D40F1CCCB499007ABC05 /* PersonService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3F91CCCB3FC007ABC05 /* PersonService+GETSpec.swift */; };
+		35E6D4101CCCB499007ABC05 /* ServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3FA1CCCB3FC007ABC05 /* ServiceSpec.swift */; };
+		35E6D4111CCCB499007ABC05 /* StringArrayService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3FB1CCCB3FC007ABC05 /* StringArrayService+GETSpec.swift */; };
+		35E6D4121CCCB499007ABC05 /* StringService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3FC1CCCB3FC007ABC05 /* StringService+GETSpec.swift */; };
+		35E6D4131CCCB499007ABC05 /* VoidService+GETSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3FD1CCCB3FC007ABC05 /* VoidService+GETSpec.swift */; };
+		35E6D4151CCCB64F007ABC05 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3EF1CCCB381007ABC05 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35E6D4161CCCB64F007ABC05 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3F01CCCB381007ABC05 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35E6D4171CCCB64F007ABC05 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3901CCCAE34007ABC05 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35E6D4191CCCB64F007ABC05 /* Restofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3921CCCAE34007ABC05 /* Restofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		35E6D3A31CCCB1DF007ABC05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E6D3751CCCA08D007ABC05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E6D37D1CCCA08D007ABC05;
+			remoteInfo = "Restofire-Gloss";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		35E6D4141CCCB63E007ABC05 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				35738CA51CCE92C2003B13A0 /* Gloss.framework in Embed Frameworks */,
+				35E6D4151CCCB64F007ABC05 /* Nimble.framework in Embed Frameworks */,
+				35E6D4161CCCB64F007ABC05 /* Quick.framework in Embed Frameworks */,
+				35E6D4171CCCB64F007ABC05 /* Alamofire.framework in Embed Frameworks */,
+				35E6D4191CCCB64F007ABC05 /* Restofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		35E6D37E1CCCA08D007ABC05 /* Restofire-Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Restofire-Gloss.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35E6D3811CCCA08D007ABC05 /* Restofire-Gloss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Restofire-Gloss.h"; sourceTree = "<group>"; };
-		35E6D3831CCCA08D007ABC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35738CAB1CCE9305003B13A0 /* Restofire_Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Restofire_Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35738CB81CCE9321003B13A0 /* Restofire_Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Restofire_Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35738CC51CCE9332003B13A0 /* Restofire_Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Restofire_Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35738CD31CCE936B003B13A0 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		35E6D37E1CCCA08D007ABC05 /* Restofire_Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Restofire_Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E6D38A1CCCA1E0007ABC05 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Restofire-Gloss.h"; sourceTree = "<group>"; };
+		35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossUtils.swift; sourceTree = "<group>"; };
+		35E6D3901CCCAE34007ABC05 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		35E6D3911CCCAE34007ABC05 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/iOS/Gloss.framework; sourceTree = "<group>"; };
+		35E6D3921CCCAE34007ABC05 /* Restofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Restofire.framework; path = Carthage/Build/iOS/Restofire.framework; sourceTree = "<group>"; };
+		35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossResponseSerializable.swift; sourceTree = "<group>"; };
+		35E6D39D1CCCB1DF007ABC05 /* Restofire_GlossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Restofire_GlossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E6D3A91CCCB1F9007ABC05 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E6D3AE1CCCB339007ABC05 /* BoolService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BoolService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3AF1CCCB339007ABC05 /* FloatService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3B01CCCB339007ABC05 /* IntService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IntService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3B11CCCB339007ABC05 /* PersonArrayService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonArrayService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3B21CCCB339007ABC05 /* PersonService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3B31CCCB339007ABC05 /* StringArrayService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringArrayService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3B41CCCB339007ABC05 /* StringService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3B51CCCB339007ABC05 /* VoidService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VoidService+GET.swift"; sourceTree = "<group>"; };
+		35E6D3D61CCCB34F007ABC05 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		35E6D3EF1CCCB381007ABC05 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		35E6D3F01CCCB381007ABC05 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		35E6D3F31CCCB3FC007ABC05 /* BoolService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BoolService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3F41CCCB3FC007ABC05 /* FloatService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3F71CCCB3FC007ABC05 /* IntService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IntService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3F81CCCB3FC007ABC05 /* PersonArrayService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonArrayService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3F91CCCB3FC007ABC05 /* PersonService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3FA1CCCB3FC007ABC05 /* ServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceSpec.swift; sourceTree = "<group>"; };
+		35E6D3FB1CCCB3FC007ABC05 /* StringArrayService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringArrayService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3FC1CCCB3FC007ABC05 /* StringService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringService+GETSpec.swift"; sourceTree = "<group>"; };
+		35E6D3FD1CCCB3FC007ABC05 /* VoidService+GETSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VoidService+GETSpec.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		35738CA71CCE9305003B13A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CB41CCE9321003B13A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CC11CCE9332003B13A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35E6D37A1CCCA08D007ABC05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35738CA31CCE92A6003B13A0 /* Gloss.framework in Frameworks */,
+				35E6D3931CCCAE34007ABC05 /* Alamofire.framework in Frameworks */,
+				35E6D3951CCCAE34007ABC05 /* Restofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E6D39A1CCCB1DF007ABC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35738CA41CCE92BA003B13A0 /* Gloss.framework in Frameworks */,
+				35E6D3F11CCCB381007ABC05 /* Nimble.framework in Frameworks */,
+				35E6D3F21CCCB381007ABC05 /* Quick.framework in Frameworks */,
+				35E6D3EC1CCCB381007ABC05 /* Alamofire.framework in Frameworks */,
+				35E6D3EE1CCCB381007ABC05 /* Restofire.framework in Frameworks */,
+				35E6D3A21CCCB1DF007ABC05 /* Restofire_Gloss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +166,9 @@
 		35E6D3741CCCA08D007ABC05 = {
 			isa = PBXGroup;
 			children = (
-				35E6D3801CCCA08D007ABC05 /* Restofire-Gloss */,
+				35E6D3891CCCA1E0007ABC05 /* Sources */,
+				35E6D3A81CCCB1F9007ABC05 /* Tests */,
+				35E6D3961CCCAE39007ABC05 /* Frameworks */,
 				35E6D37F1CCCA08D007ABC05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,37 +176,181 @@
 		35E6D37F1CCCA08D007ABC05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35E6D37E1CCCA08D007ABC05 /* Restofire-Gloss.framework */,
+				35E6D37E1CCCA08D007ABC05 /* Restofire_Gloss.framework */,
+				35E6D39D1CCCB1DF007ABC05 /* Restofire_GlossTests.xctest */,
+				35738CAB1CCE9305003B13A0 /* Restofire_Gloss.framework */,
+				35738CB81CCE9321003B13A0 /* Restofire_Gloss.framework */,
+				35738CC51CCE9332003B13A0 /* Restofire_Gloss.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35E6D3801CCCA08D007ABC05 /* Restofire-Gloss */ = {
+		35E6D3891CCCA1E0007ABC05 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				35E6D3811CCCA08D007ABC05 /* Restofire-Gloss.h */,
-				35E6D3831CCCA08D007ABC05 /* Info.plist */,
+				35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */,
+				35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */,
+				35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */,
+				35E6D38A1CCCA1E0007ABC05 /* Info.plist */,
+				35738CD31CCE936B003B13A0 /* Info-tvOS.plist */,
 			);
-			path = "Restofire-Gloss";
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		35E6D3961CCCAE39007ABC05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35E6D3EF1CCCB381007ABC05 /* Nimble.framework */,
+				35E6D3F01CCCB381007ABC05 /* Quick.framework */,
+				35E6D3901CCCAE34007ABC05 /* Alamofire.framework */,
+				35E6D3911CCCAE34007ABC05 /* Gloss.framework */,
+				35E6D3921CCCAE34007ABC05 /* Restofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35E6D3A81CCCB1F9007ABC05 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35E6D3D51CCCB349007ABC05 /* Models */,
+				35E6D3AD1CCCB339007ABC05 /* Services */,
+				35E6D3B61CCCB339007ABC05 /* ServiceSpec */,
+				35E6D3A91CCCB1F9007ABC05 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		35E6D3AD1CCCB339007ABC05 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				35E6D3AE1CCCB339007ABC05 /* BoolService+GET.swift */,
+				35E6D3AF1CCCB339007ABC05 /* FloatService+GET.swift */,
+				35E6D3B01CCCB339007ABC05 /* IntService+GET.swift */,
+				35E6D3B11CCCB339007ABC05 /* PersonArrayService+GET.swift */,
+				35E6D3B21CCCB339007ABC05 /* PersonService+GET.swift */,
+				35E6D3B31CCCB339007ABC05 /* StringArrayService+GET.swift */,
+				35E6D3B41CCCB339007ABC05 /* StringService+GET.swift */,
+				35E6D3B51CCCB339007ABC05 /* VoidService+GET.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		35E6D3B61CCCB339007ABC05 /* ServiceSpec */ = {
+			isa = PBXGroup;
+			children = (
+				35E6D3F31CCCB3FC007ABC05 /* BoolService+GETSpec.swift */,
+				35E6D3F41CCCB3FC007ABC05 /* FloatService+GETSpec.swift */,
+				35E6D3F71CCCB3FC007ABC05 /* IntService+GETSpec.swift */,
+				35E6D3F81CCCB3FC007ABC05 /* PersonArrayService+GETSpec.swift */,
+				35E6D3F91CCCB3FC007ABC05 /* PersonService+GETSpec.swift */,
+				35E6D3FA1CCCB3FC007ABC05 /* ServiceSpec.swift */,
+				35E6D3FB1CCCB3FC007ABC05 /* StringArrayService+GETSpec.swift */,
+				35E6D3FC1CCCB3FC007ABC05 /* StringService+GETSpec.swift */,
+				35E6D3FD1CCCB3FC007ABC05 /* VoidService+GETSpec.swift */,
+			);
+			path = ServiceSpec;
+			sourceTree = "<group>";
+		};
+		35E6D3D51CCCB349007ABC05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35E6D3D61CCCB34F007ABC05 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		35738CA81CCE9305003B13A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CB51CCE9321003B13A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CC21CCE9332003B13A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35E6D37B1CCCA08D007ABC05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E6D3821CCCA08D007ABC05 /* Restofire-Gloss.h in Headers */,
+				35E6D38D1CCCA1E0007ABC05 /* Restofire-Gloss.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35E6D37D1CCCA08D007ABC05 /* Restofire-Gloss */ = {
+		35738CAA1CCE9305003B13A0 /* Restofire-Gloss-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35E6D3861CCCA08D007ABC05 /* Build configuration list for PBXNativeTarget "Restofire-Gloss" */;
+			buildConfigurationList = 35738CB01CCE9305003B13A0 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-watchOS" */;
+			buildPhases = (
+				35738CA61CCE9305003B13A0 /* Sources */,
+				35738CA71CCE9305003B13A0 /* Frameworks */,
+				35738CA81CCE9305003B13A0 /* Headers */,
+				35738CA91CCE9305003B13A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Restofire-Gloss-watchOS";
+			productName = "Restofire-Gloss-watchOS";
+			productReference = 35738CAB1CCE9305003B13A0 /* Restofire_Gloss.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35738CB71CCE9321003B13A0 /* Restofire-Gloss-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35738CBD1CCE9321003B13A0 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-tvOS" */;
+			buildPhases = (
+				35738CB31CCE9321003B13A0 /* Sources */,
+				35738CB41CCE9321003B13A0 /* Frameworks */,
+				35738CB51CCE9321003B13A0 /* Headers */,
+				35738CB61CCE9321003B13A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Restofire-Gloss-tvOS";
+			productName = "Restofire-Gloss-tvOS";
+			productReference = 35738CB81CCE9321003B13A0 /* Restofire_Gloss.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35738CC41CCE9332003B13A0 /* Restofire-Gloss-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35738CCA1CCE9332003B13A0 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-Mac" */;
+			buildPhases = (
+				35738CC01CCE9332003B13A0 /* Sources */,
+				35738CC11CCE9332003B13A0 /* Frameworks */,
+				35738CC21CCE9332003B13A0 /* Headers */,
+				35738CC31CCE9332003B13A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Restofire-Gloss-Mac";
+			productName = "Restofire-Gloss-Mac";
+			productReference = 35738CC51CCE9332003B13A0 /* Restofire_Gloss.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35E6D37D1CCCA08D007ABC05 /* Restofire-Gloss-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E6D3861CCCA08D007ABC05 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-iOS" */;
 			buildPhases = (
 				35E6D3791CCCA08D007ABC05 /* Sources */,
 				35E6D37A1CCCA08D007ABC05 /* Frameworks */,
@@ -79,10 +361,29 @@
 			);
 			dependencies = (
 			);
-			name = "Restofire-Gloss";
+			name = "Restofire-Gloss-iOS";
 			productName = "Restofire-Gloss";
-			productReference = 35E6D37E1CCCA08D007ABC05 /* Restofire-Gloss.framework */;
+			productReference = 35E6D37E1CCCA08D007ABC05 /* Restofire_Gloss.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		35E6D39C1CCCB1DF007ABC05 /* Restofire-GlossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E6D3A51CCCB1DF007ABC05 /* Build configuration list for PBXNativeTarget "Restofire-GlossTests" */;
+			buildPhases = (
+				35E6D3991CCCB1DF007ABC05 /* Sources */,
+				35E6D39A1CCCB1DF007ABC05 /* Frameworks */,
+				35E6D39B1CCCB1DF007ABC05 /* Resources */,
+				35E6D4141CCCB63E007ABC05 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E6D3A41CCCB1DF007ABC05 /* PBXTargetDependency */,
+			);
+			name = "Restofire-GlossTests";
+			productName = "Restofire-GlossTests";
+			productReference = 35E6D39D1CCCB1DF007ABC05 /* Restofire_GlossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,10 +391,23 @@
 		35E6D3751CCCA08D007ABC05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Rahul Katariya";
 				TargetAttributes = {
+					35738CAA1CCE9305003B13A0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					35738CB71CCE9321003B13A0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					35738CC41CCE9332003B13A0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					35E6D37D1CCCA08D007ABC05 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					35E6D39C1CCCB1DF007ABC05 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -110,13 +424,45 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35E6D37D1CCCA08D007ABC05 /* Restofire-Gloss */,
+				35E6D37D1CCCA08D007ABC05 /* Restofire-Gloss-iOS */,
+				35E6D39C1CCCB1DF007ABC05 /* Restofire-GlossTests */,
+				35738CAA1CCE9305003B13A0 /* Restofire-Gloss-watchOS */,
+				35738CB71CCE9321003B13A0 /* Restofire-Gloss-tvOS */,
+				35738CC41CCE9332003B13A0 /* Restofire-Gloss-Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		35738CA91CCE9305003B13A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CB61CCE9321003B13A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CC31CCE9332003B13A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35E6D37C1CCCA08D007ABC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E6D39B1CCCB1DF007ABC05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,16 +472,198 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		35738CA61CCE9305003B13A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35738CD01CCE933F003B13A0 /* GlossUtils.swift in Sources */,
+				35738CCD1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CB31CCE9321003B13A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35738CD11CCE933F003B13A0 /* GlossUtils.swift in Sources */,
+				35738CCE1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35738CC01CCE9332003B13A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35738CD21CCE933F003B13A0 /* GlossUtils.swift in Sources */,
+				35738CCF1CCE933B003B13A0 /* GlossResponseSerializable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35E6D3791CCCA08D007ABC05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E6D3981CCCAF2C007ABC05 /* GlossResponseSerializable.swift in Sources */,
+				35E6D38F1CCCADD4007ABC05 /* GlossUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E6D3991CCCB1DF007ABC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E6D4121CCCB499007ABC05 /* StringService+GETSpec.swift in Sources */,
+				35E6D3D91CCCB359007ABC05 /* BoolService+GET.swift in Sources */,
+				35E6D40A1CCCB499007ABC05 /* FloatService+GETSpec.swift in Sources */,
+				35E6D4111CCCB499007ABC05 /* StringArrayService+GETSpec.swift in Sources */,
+				35E6D40F1CCCB499007ABC05 /* PersonService+GETSpec.swift in Sources */,
+				35E6D3D81CCCB353007ABC05 /* Person.swift in Sources */,
+				35E6D3DB1CCCB359007ABC05 /* IntService+GET.swift in Sources */,
+				35E6D4091CCCB499007ABC05 /* BoolService+GETSpec.swift in Sources */,
+				35E6D40D1CCCB499007ABC05 /* IntService+GETSpec.swift in Sources */,
+				35E6D40E1CCCB499007ABC05 /* PersonArrayService+GETSpec.swift in Sources */,
+				35E6D3DD1CCCB359007ABC05 /* PersonService+GET.swift in Sources */,
+				35E6D3DE1CCCB359007ABC05 /* StringArrayService+GET.swift in Sources */,
+				35E6D3DF1CCCB359007ABC05 /* StringService+GET.swift in Sources */,
+				35E6D3DA1CCCB359007ABC05 /* FloatService+GET.swift in Sources */,
+				35E6D4101CCCB499007ABC05 /* ServiceSpec.swift in Sources */,
+				35E6D4131CCCB499007ABC05 /* VoidService+GETSpec.swift in Sources */,
+				35E6D3DC1CCCB359007ABC05 /* PersonArrayService+GET.swift in Sources */,
+				35E6D3E01CCCB359007ABC05 /* VoidService+GET.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		35E6D3A41CCCB1DF007ABC05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E6D37D1CCCA08D007ABC05 /* Restofire-Gloss-iOS */;
+			targetProxy = 35E6D3A31CCCB1DF007ABC05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		35738CB11CCE9305003B13A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
+				PRODUCT_NAME = Restofire_Gloss;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		35738CB21CCE9305003B13A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
+				PRODUCT_NAME = Restofire_Gloss;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		35738CBE1CCE9321003B13A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
+				PRODUCT_NAME = Restofire_Gloss;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		35738CBF1CCE9321003B13A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
+				PRODUCT_NAME = Restofire_Gloss;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		35738CCB1CCE9332003B13A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
+				PRODUCT_NAME = Restofire_Gloss;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35738CCC1CCE9332003B13A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
+				PRODUCT_NAME = Restofire_Gloss;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		35E6D3841CCCA08D007ABC05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -230,38 +758,106 @@
 		35E6D3871CCCA08D007ABC05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Restofire-Gloss/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Restofire_Gloss;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		35E6D3881CCCA08D007ABC05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Restofire-Gloss/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-Gloss";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Restofire_Gloss;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		35E6D3A61CCCB1DF007ABC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-GlossTests";
+				PRODUCT_NAME = Restofire_GlossTests;
+			};
+			name = Debug;
+		};
+		35E6D3A71CCCB1DF007ABC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulkatariya.Restofire-GlossTests";
+				PRODUCT_NAME = Restofire_GlossTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		35738CB01CCE9305003B13A0 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35738CB11CCE9305003B13A0 /* Debug */,
+				35738CB21CCE9305003B13A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35738CBD1CCE9321003B13A0 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35738CBE1CCE9321003B13A0 /* Debug */,
+				35738CBF1CCE9321003B13A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35738CCA1CCE9332003B13A0 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35738CCB1CCE9332003B13A0 /* Debug */,
+				35738CCC1CCE9332003B13A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		35E6D3781CCCA08D007ABC05 /* Build configuration list for PBXProject "Restofire-Gloss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -271,13 +867,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35E6D3861CCCA08D007ABC05 /* Build configuration list for PBXNativeTarget "Restofire-Gloss" */ = {
+		35E6D3861CCCA08D007ABC05 /* Build configuration list for PBXNativeTarget "Restofire-Gloss-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35E6D3871CCCA08D007ABC05 /* Debug */,
 				35E6D3881CCCA08D007ABC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E6D3A51CCCB1DF007ABC05 /* Build configuration list for PBXNativeTarget "Restofire-GlossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E6D3A61CCCB1DF007ABC05 /* Debug */,
+				35E6D3A71CCCB1DF007ABC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
