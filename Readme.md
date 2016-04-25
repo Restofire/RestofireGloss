@@ -7,9 +7,9 @@
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/Restofire.svg)](https://cocoapods.org/pods/Restofire-Gloss)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/Restofire-Gloss.svg)](https://cocoapods.org/pods/Restofire-Gloss)
 
-[![Travis](https://img.shields.io/travis/Restofire/Restofire/master.svg)](https://travis-ci.org/Restofire/Restofire-Gloss/branches)
+[![Travis](https://img.shields.io/travis/Restofire/Restofire-Gloss/master.svg)](https://travis-ci.org/Restofire/Restofire-Gloss/branches)
 
 [![Join the chat at https://gitter.im/Restofire/Restofire](https://badges.gitter.im/Restofire/Restofire.svg)](https://gitter.im/Restofire/Restofire?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -151,7 +151,7 @@ import Restofire
 
 class PersonGETService: Requestable {
 
-    typealias Model = [String: AnyObject]
+    typealias Model = Person
     var path: String = "56c2cc70120000c12673f1b5"
 
 }
