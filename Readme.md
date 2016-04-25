@@ -13,7 +13,7 @@
 
 [![Join the chat at https://gitter.im/Restofire/Restofire](https://badges.gitter.im/Restofire/Restofire.svg)](https://gitter.im/Restofire/Restofire?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Restofire-Gloss is a component library for Restofire to serialize responses into Gloss
+Restofire-Gloss is a component library for [Restofire](http://github.com/Restofire/Restofire) to serialize responses into Gloss
 
 ## Requirements
 
