@@ -10,12 +10,6 @@
 		35738CA31CCE92A6003B13A0 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3911CCCAE34007ABC05 /* Gloss.framework */; };
 		35738CA41CCE92BA003B13A0 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3911CCCAE34007ABC05 /* Gloss.framework */; };
 		35738CA51CCE92C2003B13A0 /* Gloss.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3911CCCAE34007ABC05 /* Gloss.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35738CCD1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
-		35738CCE1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
-		35738CCF1CCE933B003B13A0 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
-		35738CD01CCE933F003B13A0 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
-		35738CD11CCE933F003B13A0 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
-		35738CD21CCE933F003B13A0 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
 		35738CE71CCF12D9003B13A0 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35738CE81CCF12D9003B13A0 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35738CE91CCF12D9003B13A0 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,11 +22,13 @@
 		35738CF91CCF1DE1003B13A0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35738CF61CCF1DE1003B13A0 /* Alamofire.framework */; };
 		35738CFA1CCF1DE1003B13A0 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35738CF71CCF1DE1003B13A0 /* Gloss.framework */; };
 		35738CFB1CCF1DE1003B13A0 /* Restofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35738CF81CCF1DE1003B13A0 /* Restofire.framework */; };
+		35E2383C1CCF934C006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
+		35E2383D1CCF9351006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
+		35E2383E1CCF9351006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
+		35E2383F1CCF9352006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
 		35E6D38D1CCCA1E0007ABC05 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35E6D38F1CCCADD4007ABC05 /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
 		35E6D3931CCCAE34007ABC05 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3901CCCAE34007ABC05 /* Alamofire.framework */; };
 		35E6D3951CCCAE34007ABC05 /* Restofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3921CCCAE34007ABC05 /* Restofire.framework */; };
-		35E6D3981CCCAF2C007ABC05 /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
 		35E6D3A21CCCB1DF007ABC05 /* Restofire_Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D37E1CCCA08D007ABC05 /* Restofire_Gloss.framework */; };
 		35E6D3D81CCCB353007ABC05 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3D61CCCB34F007ABC05 /* Person.swift */; };
 		35E6D3D91CCCB359007ABC05 /* BoolService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3AE1CCCB339007ABC05 /* BoolService+GET.swift */; };
@@ -60,6 +56,10 @@
 		35E6D4161CCCB64F007ABC05 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3F01CCCB381007ABC05 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35E6D4171CCCB64F007ABC05 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3901CCCAE34007ABC05 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35E6D4191CCCB64F007ABC05 /* Restofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3921CCCAE34007ABC05 /* Restofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35F75C271CCF6AA1004BA44D /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35F75C281CCF6AA1004BA44D /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35F75C291CCF6AA2004BA44D /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
+		35F75C2A1CCF6AA2004BA44D /* GlossUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +104,7 @@
 		35738CF61CCF1DE1003B13A0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		35738CF71CCF1DE1003B13A0 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = Carthage/Build/Mac/Gloss.framework; sourceTree = "<group>"; };
 		35738CF81CCF1DE1003B13A0 /* Restofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Restofire.framework; path = Carthage/Build/Mac/Restofire.framework; sourceTree = "<group>"; };
+		35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossExtensions.swift; sourceTree = "<group>"; };
 		35E6D37E1CCCA08D007ABC05 /* Restofire_Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Restofire_Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E6D38A1CCCA1E0007ABC05 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Restofire-Gloss.h"; sourceTree = "<group>"; };
@@ -219,8 +220,9 @@
 			isa = PBXGroup;
 			children = (
 				35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */,
-				35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */,
 				35E6D38E1CCCADD4007ABC05 /* GlossUtils.swift */,
+				35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */,
+				35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */,
 				35E6D38A1CCCA1E0007ABC05 /* Info.plist */,
 				35738CD31CCE936B003B13A0 /* Info-tvOS.plist */,
 			);
@@ -518,8 +520,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35738CD01CCE933F003B13A0 /* GlossUtils.swift in Sources */,
-				35738CCD1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */,
+				35E2383D1CCF9351006A3C9F /* GlossExtensions.swift in Sources */,
+				35F75C281CCF6AA1004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,8 +529,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35738CD11CCE933F003B13A0 /* GlossUtils.swift in Sources */,
-				35738CCE1CCE933A003B13A0 /* GlossResponseSerializable.swift in Sources */,
+				35E2383E1CCF9351006A3C9F /* GlossExtensions.swift in Sources */,
+				35F75C291CCF6AA2004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,8 +538,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35738CD21CCE933F003B13A0 /* GlossUtils.swift in Sources */,
-				35738CCF1CCE933B003B13A0 /* GlossResponseSerializable.swift in Sources */,
+				35E2383F1CCF9352006A3C9F /* GlossExtensions.swift in Sources */,
+				35F75C2A1CCF6AA2004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,8 +547,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E6D3981CCCAF2C007ABC05 /* GlossResponseSerializable.swift in Sources */,
-				35E6D38F1CCCADD4007ABC05 /* GlossUtils.swift in Sources */,
+				35E2383C1CCF934C006A3C9F /* GlossExtensions.swift in Sources */,
+				35F75C271CCF6AA1004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
