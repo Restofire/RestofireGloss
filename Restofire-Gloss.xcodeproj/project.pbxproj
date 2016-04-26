@@ -26,6 +26,10 @@
 		35E2383D1CCF9351006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
 		35E2383E1CCF9351006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
 		35E2383F1CCF9352006A3C9F /* GlossExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2383B1CCF934C006A3C9F /* GlossExtensions.swift */; };
+		35E238401CCFC4EA006A3C9F /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35E238411CCFC4EB006A3C9F /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35E238421CCFC4EB006A3C9F /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
+		35E238431CCFC4EC006A3C9F /* GlossResponseSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E6D3971CCCAF2C007ABC05 /* GlossResponseSerializable.swift */; };
 		35E6D38D1CCCA1E0007ABC05 /* Restofire-Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E6D38B1CCCA1E0007ABC05 /* Restofire-Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35E6D3931CCCAE34007ABC05 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3901CCCAE34007ABC05 /* Alamofire.framework */; };
 		35E6D3951CCCAE34007ABC05 /* Restofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6D3921CCCAE34007ABC05 /* Restofire.framework */; };
@@ -521,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E2383D1CCF9351006A3C9F /* GlossExtensions.swift in Sources */,
+				35E238411CCFC4EB006A3C9F /* GlossResponseSerializable.swift in Sources */,
 				35F75C281CCF6AA1004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E2383E1CCF9351006A3C9F /* GlossExtensions.swift in Sources */,
+				35E238421CCFC4EB006A3C9F /* GlossResponseSerializable.swift in Sources */,
 				35F75C291CCF6AA2004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E2383F1CCF9352006A3C9F /* GlossExtensions.swift in Sources */,
+				35E238431CCFC4EC006A3C9F /* GlossResponseSerializable.swift in Sources */,
 				35F75C2A1CCF6AA2004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +555,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E2383C1CCF934C006A3C9F /* GlossExtensions.swift in Sources */,
+				35E238401CCFC4EA006A3C9F /* GlossResponseSerializable.swift in Sources */,
 				35F75C271CCF6AA1004BA44D /* GlossUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
