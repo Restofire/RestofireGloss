@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
  s.subspec "Core" do |ss|
      ss.source_files  = "Sources/*.swift"
      ss.dependency "Restofire", "~> 1.0"
+     ss.dependency "Gloss", "~> 0.7"
      ss.framework  = "Foundation"
  end
 
