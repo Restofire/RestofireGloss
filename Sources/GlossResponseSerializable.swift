@@ -10,7 +10,7 @@ import Restofire
 import Alamofire
 import Gloss
 
-extension ResponseSerializable where Model: Decodable {
+public extension ResponseSerializable where Model: Decodable {
     
     /// `GLOSSResponseSerializer`
     var responseSerializer: ResponseSerializer<Model, NSError> {
@@ -19,7 +19,7 @@ extension ResponseSerializable where Model: Decodable {
     
 }
 
-extension ResponseSerializable where Model: CollectionType, Model.Generator.Element: Decodable {
+public extension ResponseSerializable where Model: CollectionType, Model.Generator.Element: Decodable {
     
     /// `GLOSSResponseSerializer`
     var responseSerializer: ResponseSerializer<Model, NSError> {
