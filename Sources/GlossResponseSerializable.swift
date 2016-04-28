@@ -13,7 +13,7 @@ import Gloss
 public extension ResponseSerializable where Model: Decodable {
     
     /// `GLOSSResponseSerializer`
-    var responseSerializer: ResponseSerializer<Model, NSError> {
+    public var responseSerializer: ResponseSerializer<Model, NSError> {
         return GlossUtils.GLOSSResponseSerializer()
     }
     
@@ -22,7 +22,7 @@ public extension ResponseSerializable where Model: Decodable {
 public extension ResponseSerializable where Model: CollectionType, Model.Generator.Element: Decodable {
     
     /// `GLOSSResponseSerializer`
-    var responseSerializer: ResponseSerializer<Model, NSError> {
+    public var responseSerializer: ResponseSerializer<Model, NSError> {
         return GlossUtils.GLOSSResponseSerializer()
     }
     
