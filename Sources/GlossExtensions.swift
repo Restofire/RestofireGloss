@@ -22,7 +22,7 @@ public func ~~> <T: CollectionType where T.Generator.Element: Encodable>(key: St
     return Encoder.encodeEncodableCollection(key)(property)
 }
 
-extension Decoder {
+public extension Decoder {
     /**
      Returns function to decode JSON to value type
      for objects that conform to the Decodable protocol
@@ -46,7 +46,7 @@ extension Decoder {
     }
 }
 
-extension Encoder {
+public extension Encoder {
     
     /**
      Returns function to encode array as JSON
