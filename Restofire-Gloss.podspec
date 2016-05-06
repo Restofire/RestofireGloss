@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'Restofire-Gloss'
- s.version = '1.0.0'
+ s.version = '1.0.1'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'Restofire-Gloss is a component library for Restofire to serialize responses into Gloss'
  s.homepage = 'https://github.com/Restofire/Restofire-Gloss'
