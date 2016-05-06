@@ -32,7 +32,7 @@ public extension Decoder {
      
      :returns: Function decoding JSON to an optional value type
      */
-    public static func decodeDecodableCollection<T: CollectionType where T.Generator.Element: Decodable>(key: String, keyPathDelimiter: String = GlossKeyPathDelimiter()) -> JSON -> T? {
+    public static func decodeDecodableCollection<T: CollectionType where T.Generator.Element: Decodable>(key: String, keyPathDelimiter: String = GlossKeyPathDelimiter) -> JSON -> T? {
         return {
             json in
             
